@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contanier{
+    width: 100%;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+.logo{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: darkslategrey;
+
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 0% 18px;
+    list-style: none;
+}
+li a{
+    font-size: 20px;
+    font-weight: 800px;
+    color: darkslategrey;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+li a:hover{
+    color: purple;
+    font-size: 30px;
+    font-weight: 700px;
+}
+main{
+    display: flex;
+    width: 100%;
+    
+}
+.herotext{
+    width: 50%;
+    margin: 20px;
+    margin-top: 80px;
+}
+h1{
+   
+    font-size: 65px;
+    letter-spacing: 3px;
+    color: darkslategrey;
+}
+span{
+    color: purple;
+}
+h3{
+    margin-top: 10px;
+    color: darkslategrey;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+p{
+    color: darkslategrey;
+    margin-top: 20px;
+    font-size: 15px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: darkslategray;
+    box-shadow: 10px 10px 10px black;
+}
+img{
+    margin-left: 70px;
+}
+/* .box{
+    margin-top: 20px;
+    display: flex;
+}
+.row{
+    box-shadow: 0px 0px 10px black;
+    height: 300px;
+    margin: 20px 15px;
+    justify-content: center;
+    width: 1000px;
+    padding: 10px 10px;
+    align-items: center;
+} */.card {
+  width: 200px;
+  height: 240px;
+  background: rgb(69, 128, 69);
+  box-shadow: 0px 0px 10px black;
+  margin: 50px 10px;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.box{
+    display: flex;
+    margin-left: 50px;
+}
